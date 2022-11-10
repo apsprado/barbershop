@@ -230,6 +230,7 @@ body {
     color: var(--color-secundary);
     font-weight: 400;
     font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .services .boxes{
@@ -255,3 +256,83 @@ body {
     line-height: 30px;
 
 }
+
+/******************************************************
+*                   APPOINTMENT 
+******************************************************/
+.appointment{
+    padding: 100px 0;
+    background-color: var(--color-primary);
+    background-image: url(../images/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+}
+
+.appointment h2 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.appointment img{
+    margin: 0 auto;
+    display: block;
+}
+
+.appointment form{
+    margin-top: 60px;
+}
+
+.appointment .personal-date{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: ;
+   
+}
+
+.appointment .input-wrapper{
+    width: 100%;
+    margin-right: 5px;
+}
+
+.appointment .input-wrapper:last-of-type{
+    width: 100%;
+    margin-right: 0px;
+}
+
+.appointment label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    color: var(--color-primary-light);
+}
+
+.appointment .personal-date input,
+.appointment .personal-date select,
+.appointment textarea{
+    padding: 5px 10px;
+    outline: none;
+    border:  none;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.appointment textarea{
+    height: 100px;
+}
+
+.appointment button{
+    background-color: var(--color-secundary);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
